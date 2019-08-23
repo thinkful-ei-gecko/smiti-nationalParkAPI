@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1{
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type=text], input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
