@@ -53,7 +53,7 @@ function getParks(states, maxResults) {
 function displayParkList() {
   $('#park-search').submit(event => {
     event.preventDefault();
-    const state = $('#search-parks').val().split(' ');
+    const state = $('#search-parks').val().split(',');
     let maxResults = $('#dispaly-num').val();
     getParks(state, maxResults);
 
